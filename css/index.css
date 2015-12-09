@@ -1,0 +1,32 @@
+
+main {
+    background-image: url("../img/ggxmas.jpg");
+    background-size: cover;
+    width: 18em;
+    height: 18em;
+    box-shadow: 0 0 2em white, 0 0 2em white, 0 0 2em white;
+    border-radius: 1em;
+    border: white 1ex solid;
+    display: block;
+    padding: 1em;
+    position: relative;
+    text-align: center;
+    text-shadow: 0 0 1em #FFF;
+}
+
+main section {
+    position: absolute;
+    bottom: 0;
+    right: 1em;
+    left: 1em;
+    color: #fff;
+}
+
+h1 {
+    margin: 0;
+}
+
+h1 {
+   text-stroke-width: 1px;
+   text-stroke-color: white;
+}

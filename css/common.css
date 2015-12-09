@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body, main {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+body {
+    background: #060;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+nav a {
+    width: 10rem;
+    height: 10rem;
+    text-align: center;
+    z-index: 100;
+}
+
+aside {
+    display: none;
+}
+
+.twinkle {
+    text-decoration: none;
+    position: absolute;
+    top: 0.25rem;
+    right: 1rem;
+    font-size: 300%;
+    color: #FFF;
+    animation: wiggle 2s infinite ease-in-out;
+}
+
+@keyframes wiggle {
+  0% {transform: rotate(0deg);}
+  5% {transform: rotate(-15deg);}
+  10% {transform: rotate(15deg);}
+  15% {transform: rotate(0deg);}
+  100% {transform: rotate(0deg);}
+}
